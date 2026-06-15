@@ -9,7 +9,7 @@ import VendorMarquee from '@/components/ui/VendorMarquee'
 
 import Hero          from '@/components/sections/Hero'
 import {
-  Stats, HowItWorks, Features, AppShowcase, Vendors,
+  HowItWorks, Features, AppShowcase, Vendors,
 } from '@/components/sections/Sections1'
 import {
   Testimonials, Pricing, Trust, Locations,
@@ -50,7 +50,6 @@ export default function Home() {
       {/* Page */}
       <main>
         <Hero onOrderClick={openModal} />
-        <Stats />
         <HowItWorks />
         <Features />
         <AppShowcase onOrderClick={openModal} />

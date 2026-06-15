@@ -34,15 +34,12 @@ export default function Navbar({ onOrderClick }: NavbarProps) {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 32 }}>
 
             {/* Logo */}
-            <a href="#" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-              <div className="nav-logo-mark">Z</div>
-              <span style={{
-                fontFamily: 'Poppins, sans-serif',
-                fontSize: 18, fontWeight: 700,
-                color: 'white', letterSpacing: '-0.3px',
-              }}>
-                Zupta
-              </span>
+            <a href="#" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+              <img
+                src="/logo.png"
+                alt="Zupta"
+                style={{ height: 38, width: 'auto', objectFit: 'contain', display: 'block' }}
+              />
             </a>
 
             {/* Desktop links */}
@@ -119,9 +116,8 @@ export default function Navbar({ onOrderClick }: NavbarProps) {
           </button>
 
           {/* Brand mark */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
-            <div className="nav-logo-mark">Z</div>
-            <span style={{ fontFamily: 'Poppins,sans-serif', fontSize: 20, fontWeight: 700, color: 'white' }}>Zupta</span>
+          <div style={{ marginBottom: 12 }}>
+            <img src="/logo.png" alt="Zupta" style={{ height: 44, width: 'auto', objectFit: 'contain' }} />
           </div>
 
           {NAV_LINKS.map((l) => (

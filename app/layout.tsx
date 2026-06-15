@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   themeColor: '#09071A',
+  icons: {
+    icon: '/logo-icon.png',
+    apple: '/logo-icon.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

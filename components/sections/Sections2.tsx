@@ -1044,14 +1044,8 @@ export function Footer() {
         >
           {/* Brand */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 18 }}>
-              <div className="nav-logo-mark">Z</div>
-              <span style={{
-                fontFamily: 'Poppins, sans-serif',
-                fontSize: 22, fontWeight: 800, color: 'white', letterSpacing: '-0.5px',
-              }}>
-                Zupta
-              </span>
+            <div style={{ marginBottom: 18 }}>
+              <img src="/logo.png" alt="Zupta" style={{ height: 42, width: 'auto', objectFit: 'contain' }} />
             </div>
             <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.42)', lineHeight: 1.85, margin: '0 0 18px', maxWidth: 280 }}>
               Zupta is a smart pre-order platform connecting customers with local food vendors for affordable, fast and reliable meal pickup across Nigeria.

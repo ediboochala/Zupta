@@ -119,8 +119,8 @@ export default function ScrollEffects() {
         entries => {
           entries.forEach(e => {
             if (e.isIntersecting) {
-              e.currentTarget.querySelectorAll<HTMLElement>('[data-target]').forEach(animateCounter)
-              statsObs.unobserve(e.currentTarget)
+              e.target.querySelectorAll<HTMLElement>('[data-target]').forEach(animateCounter)
+              statsObs.unobserve(e.target)
             }
           })
         },

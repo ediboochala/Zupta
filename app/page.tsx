@@ -12,7 +12,7 @@ import {
   HowItWorks, Features, AppShowcase, Vendors,
 } from '@/components/sections/Sections1'
 import {
-  Testimonials, Pricing, Trust, Locations,
+  Testimonials, Pricing, Locations,
   Blog, FAQ, Newsletter, CTABanner, Footer,
 } from '@/components/sections/Sections2'
 
@@ -57,7 +57,6 @@ export default function Home() {
         <Vendors onOrderClick={openModal} />
         <Testimonials />
         <Pricing onOrderClick={openModal} />
-        <Trust />
         <Locations />
         <Blog />
         <FAQ />

@@ -5,7 +5,6 @@ import Navbar        from '@/components/Navbar'
 import ScrollEffects from '@/components/ui/ScrollEffects'
 import OrderModal    from '@/components/ui/OrderModal'
 import Toast         from '@/components/ui/Toast'
-import Ticker        from '@/components/ui/Ticker'
 import VendorMarquee from '@/components/ui/VendorMarquee'
 
 import Hero          from '@/components/sections/Hero'
@@ -50,7 +49,6 @@ export default function Home() {
 
       {/* Page */}
       <main>
-        <Ticker />
         <Hero onOrderClick={openModal} />
         <Stats />
         <HowItWorks />
